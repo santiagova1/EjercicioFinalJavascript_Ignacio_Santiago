@@ -50,11 +50,24 @@ function cargarPelis() {
 
     function showMovies(movie) {
         
-        console.log(movie.Search[5].Title);
-       // let peli = JSON.parse(movie);
-        //console.log(peli); 
+        
+        for (const i in movie.Search) {
+            var li = document.createElement("div");  
+            
+                for(const k in movie.Search[i]){
+                    li.innerHTML = '<img src=' +movie.Search[i][k] +'/>';
+                }
+                
+                
+                document.getElementById("listaPelis").appendChild(li);
+            }
+            
+            }
+
+        
+
     }
     
-}
+
 
 
