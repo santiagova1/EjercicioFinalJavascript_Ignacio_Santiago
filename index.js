@@ -47,9 +47,14 @@ function cargarPelis() {
 
 
     console.log(url + apikey + "&s=" + title);
+
+    function showMovies(movie) {
+        
+        console.log(movie.Search[5].Title);
+       // let peli = JSON.parse(movie);
+        //console.log(peli); 
+    }
     
 }
 
-function showMovies(movie) {
 
-}
