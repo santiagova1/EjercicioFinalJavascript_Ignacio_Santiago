@@ -1,3 +1,4 @@
+
 /*function cargarPelis() {
     //const movies = getMovies();
     console.log("movie");
@@ -53,3 +54,4 @@ function cargarPelis() {
 function showMovies(movie) {
 
 }
+
